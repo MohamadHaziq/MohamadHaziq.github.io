@@ -1,4 +1,6 @@
 .idea/
+/img/Engagement
+/img/old
 *.iml
 .DS_Store
 *.iws
