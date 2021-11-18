@@ -184,7 +184,7 @@ $(document).ready(function () {
         },
         data: {
             // Event title
-            title: "Haziq & Hayani's Wedding",
+            title: "Haziq and Hayani's Wedding",
 
             // Event start date
             start: new Date('Feb 22, 2022 17:00'),
@@ -194,7 +194,7 @@ $(document).ready(function () {
 
             // You can also choose to set an end time
             // If an end time is set, this will take precedence over duration
-            end: new Date('Nov 29, 2017 00:00'),
+            end: new Date('Feb 23, 2022 00:00'),
 
             // Event Address
             address: 'KL Tower, Kuala Lumpur, Malaysia',
