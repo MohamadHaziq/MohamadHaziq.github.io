@@ -252,7 +252,7 @@ Hero
 ========================================================================== */
 .hero {
   min-height: 750px;
-  background: url('../img/hero-2.jpg') center center;
+  // background: url('../img/hero-2.jpg') center center;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -727,6 +727,30 @@ Embed video
 ========================================================================== */
 #video-bg {
   height: 300px;
+}
+#video-content {
+  width: 100%;
+  height: 100%;
+  padding-top: 100px;
+  position: relative;
+  background: rgba(17, 17, 17, 0.5);
+  text-align: center;
+}
+#video-content h5 {
+  color: #ffffff;
+  font-size: 30px;
+  font-weight: 300;
+  letter-spacing: 10px;
+}
+#video-content p {
+  color: #ffffff;
+}
+
+/* ==========================================================================
+Header Video
+========================================================================== */
+#header-video {
+  height: 600;
 }
 #video-content {
   width: 100%;
