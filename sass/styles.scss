@@ -409,7 +409,6 @@ Intro
 }
 #intro p {
   text-align: center;
-  color: white;
 }
 
 /* ==========================================================================
@@ -991,7 +990,9 @@ Highlight Color Changes
 .highlight {
   background-color: #e8ca6f;
 }
-
+.highlight-border {
+  border-color: #e8ca6f;
+}
 
 /* ==========================================================================
 Bootstrap override
