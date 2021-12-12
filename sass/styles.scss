@@ -24,7 +24,7 @@ Global Styles
   margin: 0;
 }
 a {
-  color: $accent-color;
+  color: black;
   -webkit-transition-timing-function: ease;
   transition-timing-function: ease;
   -webkit-transition-duration: 200ms;
@@ -39,7 +39,7 @@ a:hover, a:focus {
 body {
   font-family: $sans-serif;
   font-weight: $light;
-  color: $txt-primary;
+  color: black;
   -webkit-text-size-adjust: 100%;
   //fix for iOS
 }
@@ -97,7 +97,7 @@ section .header {
 .tooltip-inner {
   max-width: 200px;
   padding: 3px 8px;
-  color: #fff;
+  color: black;
   text-align: center;
   text-decoration: none;
   text-transform: capitalize;
@@ -265,14 +265,14 @@ Hero
     left: 50%;
   }*/
   .down-arrow a {
-    color: $txt-light;
+    color: black;
   }
   h1 {
-    color: $txt-light;
+    color: black;
     margin-bottom: 40px;
   }
   p.intro {
-    color: $txt-light;
+    color: black;
     font-size: 20px;
     font-weight: 300;
     margin-bottom: 80px;
@@ -306,7 +306,7 @@ header {
   transition: padding 300ms ease-in-out;
 
   a {
-    color: $txt-light;
+    color: black;
     text-transform: uppercase;
     font-size: $nav-font-size;
 
@@ -328,7 +328,7 @@ header {
       display: inline;
 
       a {
-        color: $txt-light;
+        color: white;
         padding-right: 25px;
 
         &:hover {
@@ -345,7 +345,7 @@ header {
       display: inline;
 
       a {
-        color: $txt-light;
+        color: white;
 
         &:hover {
           color: $accent-color;
@@ -400,8 +400,8 @@ Intro
 }
 
 #intro {
-  padding-top: 30px;
-  padding-bottom: 10px;
+  padding-top: 20px;
+  padding-bottom: 20px;
   img {
     width: 100%;
     height: auto;
@@ -534,7 +534,7 @@ Features-stack
     margin: 0 0 20px 0;
   }
   p {
-    color: #ACB1B4;
+    color: black;
   }
   .btn {
     margin-top: 10px;
@@ -553,6 +553,8 @@ Features-stack
 .events
 ========================================================================== */
 .events {
+  background-color: #EDA565;
+
   .leftcol {
     padding-right: 100px;
     border-right: solid 1px $keyline-color;
@@ -846,7 +848,7 @@ RSVP form
         left: 30px;
         transform: translateY(-50%);
       }
-      i.fa-user, i.fa-users, i.fa-envelope, .fa-key {
+      i.fa-user, i.fa-users, i.fa-envelope, .fa-key i.fa-cutlery {
         font-size: 14px;
         position: absolute;
         top: 50%;
@@ -915,7 +917,7 @@ RSVP form 2
         left: 30px;
         transform: translateY(-50%);
       }
-      i.fa-user, i.fa-users, i.fa-envelope, .fa-key {
+      i.fa-user, i.fa-users, i.fa-envelope, .fa-key .fa-cutlery {
         font-size: 14px;
         position: absolute;
         top: 50%;
@@ -992,6 +994,9 @@ Highlight Color Changes
 }
 .highlight-border {
   border-color: #e8ca6f;
+}
+.text-black {
+  color: black;
 }
 
 /* ==========================================================================
