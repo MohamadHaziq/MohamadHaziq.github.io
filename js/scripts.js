@@ -187,20 +187,20 @@ $(document).ready(function () {
             title: "Haziq and Hayani's Wedding",
 
             // Event start date
-            start: new Date('Feb 22, 2022 17:00'),
+            start: new Date('Feb 26, 2022 12:00'),
 
             // Event duration (IN MINUTES)
             // duration: 120,
 
             // You can also choose to set an end time
             // If an end time is set, this will take precedence over duration
-            end: new Date('Feb 23, 2022 00:00'),
+            end: new Date('Feb 26, 2022 17:00'),
 
             // Event Address
-            address: 'KL Tower, Kuala Lumpur, Malaysia',
+            address: 'Sime Darby Convention Centre, Kuala Lumpur, Malaysia',
 
             // Event Description
-            description: "We can't wait to see you on our big day. For any queries or issues, please contact Daniel Roslan at 012-3117167."
+            description: "We can't wait to see you on our big day. For any queries or issues, please contact Ph Rashidah Ibrahim at at +60 19-375 1488."
         }
     });
 
@@ -215,7 +215,7 @@ $(document).ready(function () {
         $('#alert-wrapper').html(alert_markup('info', '<strong>Just a sec!</strong> We are saving your details.'));
 
         if (MD5($('#invite_code').val()) !== 'b0e53b10c1f55ede516b240036b88f40'
-            && MD5($('#invite_code').val()) !== '2ac7f43695eb0479d5846bb38eec59cc') {
+            && MD5($('#invite_code').val()) !== '6dd84f5f9ea3f610dbcf08b1758be6b9') {
             $('#alert-wrapper').html(alert_markup('danger', '<strong>Sorry!</strong> Your invite code is incorrect.'));
         } else {
             $.post('https://script.google.com/macros/s/AKfycbyb3uGE6mE8hkf3_7QmUdDSZxHiwfujhqLwATM_5S8LSoyX8gcujPRDYoZMX93sAK9E/exec', data)
