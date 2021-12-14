@@ -5,7 +5,7 @@ _See [wedding.rampatra.com](http://wedding.rampatra.com/) for a demo. Use invite
 Currently in use by Mohamad Haziq to develop wedding website. Invite code set differently.
 
 # Highlights
-1. Slick and fully __responsive__ design.
+1. Slick and fully __responsive__ design.ˇ
 2. __RSVP feature__ which directly uploads data to a Google sheet.
 3. __Receive email alerts__ when someone RSVPs.
 4. __Add to Calendar__ feature which supports four different calendars.
