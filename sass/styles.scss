@@ -1013,7 +1013,14 @@ body.modal-open {
   height:360px;  
   }  
 
-.carousel-inner .item img {  
-  height:100px;  
+.carousel-inner {  
+  height:500px;  
+  width: 100%;
+  object-fit: contain;  
+ }
+
+ .carousel-item img {  
+  max-height: 350px;  
+  width: 100%;
   object-fit: contain;  
  }
