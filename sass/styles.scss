@@ -1008,3 +1008,12 @@ body.modal-open {
 .modal-body {
   padding:25px;
 }
+
+.carousel {
+  height:360px;  
+  }  
+
+.carousel-inner .item img {  
+  height:100px;  
+  object-fit: contain;  
+ }
