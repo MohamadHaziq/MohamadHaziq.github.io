@@ -1025,6 +1025,9 @@ body.modal-open {
   object-fit: contain;  
  }
 
- .navigation {
-   background: #4f3e42;
+ .bg-dark {
+   background: transparent;
+ }
+ .bg-dark.scrolled {
+  background: #4f3e42;
  }

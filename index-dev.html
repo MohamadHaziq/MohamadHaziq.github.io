@@ -33,14 +33,22 @@
     <link rel="stylesheet" href="node_modules/animate.css/animate.min.css">
     <link rel="stylesheet" href="node_modules/font-awesome/css/font-awesome.min.css">
     <script src="js/vendor/modernizr-2.8.3-respond-1.4.2.min.js"></script>
+    <style>
+        .bg-dark {
+            background:transparent !important;
+            transition:0.75s ease;
+        }
+        .bg-dark.scrolled {
+            background:#4f3e42 !important;
+        }
+    </style>
 </head>
 <body id="top">
 
 <section class="hero">
-    <nav class="navbar fixed-top navbar-light" style="background:#4f3e42;">
+    <nav class="navbar fixed-top navbar-light bg-dark">
         <div class="container-fluid">
-            <div class="logo"><a href="#"><img src="img/logo.png" alt="Logo"></a></div>
-          <a class="navbar-brand" href="#">Fixed top</a>
+          <a class="navbar-brand" href="#"><img src="img/logo.png" alt="Logo"></a>
         </div>
       </nav>
     <!-- <section class="navigation">
@@ -540,5 +548,10 @@
     ga('create', 'UA-46465113-4', 'auto');
     ga('send', 'pageview');
 </script>
+<script>
+    $(window).scroll(function(){
+    $('nav').toggleClass('scrolled', $(this).scrollTop() > 250);
+    });
+   </script>
 </body>
 </html>
