@@ -41,16 +41,68 @@
         .bg-dark.scrolled {
             background:#4f3e42 !important;
         }
+        .nav .navbar-nav li a{
+            color: white !important;
+        }
     </style>
 </head>
 <body id="top">
 
 <section class="hero">
-    <nav class="navbar fixed-top navbar-light bg-dark">
-        <div class="container-fluid">
-          <a class="navbar-brand" href="#"><img src="img/logo.png" alt="Logo"></a>
+    <nav class="navbar navbar-expand-lg fixed-top navbar-light bg-dark" style="color: white;">
+        <a class="navbar-brand" href="#"><img src="img/logo.png" alt="Logo"></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item active nav-text">
+              <a class="nav-link" href="#intro" style="color: white;" >How we met <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#events" style="color: white;">Events</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#instagram" style="color: white;">Photos</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#video-bg" style="color: white;">Glimps of the City</a>
+            </li>
+          </ul>
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item active nav-text">
+              <a class="nav-link btn-white btn-small" href="#rsvp" >RSVP</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link login" href="#map">Venue</a>
+            </li>
+        </ul>
         </div>
       </nav>
+    <!-- <nav class="navbar fixed-top navbar-light bg-dark">
+        <div class="container-fluid">
+          
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Features</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Pricing</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+    </nav> -->
     <!-- <section class="navigation">
         <header>
             <div class="header-content">
@@ -256,7 +308,10 @@
                     <img src="img/general/image_one.jpg" class="d-block w-100" alt="img/general/image_one.jpg">
                   </div>
                   <div class="carousel-item">
-                    <img src="img/general/image_one.jpg" class="d-block w-100" alt="img/general/image_one.jpg">
+                    <img src="img/general/image_two.jpg" class="d-block w-100" alt="img/general/image_two.jpg">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="img/general/image_thre.jpg" class="d-block w-100" alt="img/general/image_three.jpg">
                   </div>
                 </div>
                 <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
@@ -269,12 +324,6 @@
                 </button>
               </div>
         </div>
-        <!-- <div class="row section-border wp7">
-            <div class="col-md-4 offset-md-4">
-                <img src="img/midpage-photo.jpg", style="vertical-align:middle;margin:50px 0px;border-radius: 10%;">
-            </div>
-            <br>
-        </div> -->
     </div>
 </section>
 
@@ -334,34 +383,6 @@
     </div> -->
 </section>
 
-<!-- <div class="mt-4 p-5 bg-light text-white rounded">
-    <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
-        <div class="carousel-indicators">
-          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
-          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
-        </div>
-        <div class="carousel-inner">
-          <div class="carousel-item active">
-            <img src="img/general/image_one.jpg" class="d-block w-100" alt="img/general/image_one.jpg">
-          </div>
-          <div class="carousel-item">
-            <img src="img/general/image_one.jpg" class="d-block w-100" alt="img/general/image_one.jpg">
-          </div>
-          <div class="carousel-item">
-            <img src="img/general/image_one.jpg" class="d-block w-100" alt="img/general/image_one.jpg">
-          </div>
-        </div>
-        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
-          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Previous</span>
-        </button>
-        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
-          <span class="carousel-control-next-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Next</span>
-        </button>
-      </div>
-</div> -->
 
 <section id="video-bg" class="hidden-sm hidden-xs">
     <div id="bgndVideo" class="player"
@@ -468,8 +489,7 @@
                                                                      placeholder="Your email"
                                                                      required>
                             </div>
-                        </div>
-                        
+                        </div>                 
                         <div class="col-md-6 col-sm-6">
                             <div class="form-input-group">
                                 <i class="fa fa-mobile"></i><input name="mobile_no" id="mobile_no"
@@ -500,7 +520,7 @@
                     <div class="row">
                         <div class="col-md-12" id="alert-wrapper"></div>
                     </div>
-                    <button class="btn-fill rsvp-btn">
+                    <button type="submit" class="btn-fill rsvp-btn">
                         Yes,
                         that's me!
                     </button>
@@ -525,11 +545,13 @@
 <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.11.2.min.js"><\/script>')</script>
 <script src="js/jquery.fancybox.pack.js"></script>
 <script src="js/vendor/bootstrap.min.js"></script>
+<script src="js/vendor/bootstrap.min_old.js"></script>
 <script src="js/jquery.flexslider-min.js"></script>
 <script src="js/jquery.mb.YTPlayer.min.js"></script>
 <script src="node_modules/waypoints/lib/jquery.waypoints.min.js"></script>
 <script src="js/vendor/ouical.js"></script>
 <script src="js/scripts.js"></script>
+<script src="js/scripts-2.js"></script>
 <script async defer
         src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAFXp_4jE-irZg-wennIru62UC8mnyYf68&callback=initMap"></script>
 <!-- Google Analytics -->
@@ -550,7 +572,7 @@
 </script>
 <script>
     $(window).scroll(function(){
-    $('nav').toggleClass('scrolled', $(this).scrollTop() > 250);
+    $('nav').toggleClass('scrolled', $(this).scrollTop() > 200);
     });
    </script>
 </body>

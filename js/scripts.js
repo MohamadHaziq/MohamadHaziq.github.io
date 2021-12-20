@@ -119,7 +119,7 @@ $(document).ready(function () {
 
 
     $(window).scroll(function(){
-    $('nav').toggleClass('scrolled', $(this).scrollTop() > 1080);
+    $('nav').toggleClass('scrolled', $(this).scrollTop() > 250);
     });
 
     /***************** Smooth Scrolling ******************/
@@ -169,6 +169,7 @@ $(document).ready(function () {
 
     /********************** Embed youtube video *********************/
     $('.player').YTPlayer();
+    document.getElementById('.player').YTPlayer();
 
 
     /********************** Toggle Map Content **********************/
