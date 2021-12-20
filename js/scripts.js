@@ -66,7 +66,7 @@ $(document).ready(function () {
     });
 
     /***************** Tooltips ******************/
-    $('[data-toggle="tooltip"]').tooltip();
+    // $('[data-toggle="tooltip"]').tooltip();
 
     /***************** Nav Transformicon ******************/
 
