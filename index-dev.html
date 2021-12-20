@@ -44,12 +44,75 @@
         .nav .navbar-nav li a{
             color: white !important;
         }
+        a {
+          text-decoration: none;
+        }
     </style>
 </head>
 <body id="top">
 
-<section class="hero">
-    <nav class="navbar navbar-expand-lg fixed-top navbar-light bg-dark" style="color: white;">
+  <section class="hero">
+    <section class="navigation">
+        <header>
+            <div class="header-content">
+                <div class="logo"><a href="#"><img src="img/logo.png" alt="Logo"></a></div>
+                <div class="header-nav">
+                    <nav>
+                        <ul class="primary-nav">
+                            <li><a href="#intro">How we met</a></li>
+                            <li><a href="#events">Events</a></li>
+                            <!-- <li><a href="#instagram">Instagram</a></li> -->
+                            <li><a href="#eng-pics">Engagement</a></li>
+                            <li class="hidden-sm hidden-xs"><a href="#video-bg">Glimpse of the city</a></li>
+                        </ul>
+                        <ul class="member-actions">
+                            <li><a href="#map" class="login">Venue</a></li>
+                            <li><a href="#rsvp" class="btn-white btn-small">RSVP</a></li>
+                        </ul>
+                    </nav>
+                </div>
+                <div class="navicon">
+                    <a class="nav-toggle" href="#"><span></span></a>
+                </div>
+            </div>
+        </header>
+    </section>
+    <!-- <section id="header-video" class="">
+    <div id="headVideo" class="player"
+         data-property="{videoURL:'https://youtu.be/dY4Obwy0U7g',containment:'#header-video',autoPlay:true, mute:true, showControls:false, startAt:15, stopAt:259, opacity:1}">
+    </div>
+    <div id="video-content">
+        <h5>Kuala Lumpur</h5>
+        <p>The Wedding of Haziq and Hayani</p>
+        <a href="#rsvp"
+                class="btn btn-accent btn-large rsvp-btn">RSVP</a>
+
+    </div>
+    </section> -->
+    <div class="container">
+        <div class="row">
+            <div class="col-md-10 col-md-offset-1">
+                <div class="hero-content text-center">
+                    <h1> <br></h1>
+                    <!-- <img src="img/logo.png"> -->
+                    <p class="intro"> </p>
+                </div>
+                <div class="col-sm-4 hidden-xs"></div>
+            </div>
+            <!-- <div class="col-sm-4 hidden-xs text-center"><a href="#rsvp"
+                                                           class="btn btn-accent btn-large rsvp-btn">RSVP</a></div>
+            <div class="col-sm-4 hidden-xs"></div>
+            </div> -->
+            </div>
+        </div>
+        <div class="row">
+            
+    </div>
+    <div class="down-arrow floating-arrow"><a href="#invitation"><i class="fa fa-angle-down"></i></a></div>
+</section>
+
+<!-- <section class="hero"> -->
+    <!-- <nav class="navbar navbar-expand-lg fixed-top navbar-light bg-dark" style="color: white;">
         <a class="navbar-brand" href="#"><img src="img/logo.png" alt="Logo"></a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
@@ -78,10 +141,9 @@
             </li>
         </ul>
         </div>
-      </nav>
+      </nav> -->
     <!-- <nav class="navbar fixed-top navbar-light bg-dark">
         <div class="container-fluid">
-          
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
@@ -102,7 +164,7 @@
             </ul>
           </div>
         </div>
-    </nav> -->
+    </nav>  -->
     <!-- <section class="navigation">
         <header>
             <div class="header-content">
@@ -145,28 +207,28 @@
                 class="btn btn-accent btn-large rsvp-btn">RSVP</a>
 
     </div>
-    </section> -->
+    </section>
     <div class="container">
         <div class="row">
             <div class="col-md-10 col-md-offset-1">
                 <div class="hero-content text-center">
                     <h1> <br></h1>
                     <!-- <img src="img/logo.png"> -->
-                    <p class="intro"> </p>
+                    <!-- <p class="intro"> </p>
                 </div>
                 <div class="col-sm-4 hidden-xs"></div>
-            </div>
+            </div> -->
             <!-- <div class="col-sm-4 hidden-xs text-center"><a href="#rsvp"
                                                            class="btn btn-accent btn-large rsvp-btn">RSVP</a></div>
             <div class="col-sm-4 hidden-xs"></div>
             </div> -->
-            </div>
+            <!-- </div>
         </div>
-        <div class="row">
+        <div class="row"> -->
             
-    </div>
-    <div class="down-arrow floating-arrow"><a href="#invitation"><i class="fa fa-angle-down"></i></a></div>
-</section>
+    <!-- </div>
+    <div class="down-arrow floating-arrow"><a href="#invitation"><i class="fa fa-angle-down"></i></a></div> -->
+<!-- </section> -->
 
 <section id="invitation" class="section-padding" style="background:#FBEBD2;">
     <div class="container">
@@ -463,9 +525,7 @@
             <div class="col-md-6 offset-md-3">
                 <h3>What are you waiting for?</h3>
                 <p class="text-black">We would greatly appreciate if you could RSVP before 31st of January '22</p>
-                <form id="rsvp-form" class="rsvp-form"
-                      action=""
-                      method="POST">
+                <form id="rsvp-form" class="rsvp-form">
                     <div class="row">           
                         <div class="col-md-6 col-sm-6">
                             <div class="form-input-group">
@@ -551,7 +611,7 @@
 <script src="node_modules/waypoints/lib/jquery.waypoints.min.js"></script>
 <script src="js/vendor/ouical.js"></script>
 <script src="js/scripts.js"></script>
-<script src="js/scripts-2.js"></script>
+<!-- <script src="js/scripts-2.js"></script> -->
 <script async defer
         src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAFXp_4jE-irZg-wennIru62UC8mnyYf68&callback=initMap"></script>
 <!-- Google Analytics -->
