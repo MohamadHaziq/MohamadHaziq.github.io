@@ -1010,21 +1010,28 @@ body.modal-open {
 }
 
 .carousel {
-  height:500px;  
+  height:550px;  
   }  
 
 .carousel-inner {  
-  height:450px;  
+  height:550px;  
   width: 100%;
   object-fit: contain;  
  }
 
  .carousel-item img {  
-  max-height: 400px;  
+  max-height: 550px;  
   width: 100%;
   object-fit: contain;  
  }
 
- .navigation {
-   background: #4f3e42;
+ .bg-dark {
+   background: transparent;
  }
+ .bg-dark.scrolled {
+  background: #4f3e42;
+ }
+
+ .nav .navbar-nav li a{
+  color: white;
+  }
