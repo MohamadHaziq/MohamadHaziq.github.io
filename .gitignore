@@ -1,6 +1,10 @@
 .idea/
 /img/Engagement
 /img/old
+node_modules/node-sass
+node_modules/brew
+node_modules/gulp-sass
+node_modules/node-gyp
 *.iml
 .DS_Store
 *.iws
