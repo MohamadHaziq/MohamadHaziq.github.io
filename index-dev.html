@@ -47,6 +47,19 @@
         a {
           text-decoration: none;
         }
+        #video-container {
+            top:0%;
+            left:0%;
+            height:100%;
+            width:100%;
+            overflow: hidden;
+                position: absolute;
+        }
+        video {
+            position:absolute;
+            z-index:0;
+                width: 100%;
+        }
     </style>
 </head>
 <body id="top">
@@ -448,7 +461,7 @@
 
 <!-- change source to video -->
 
-<section id="video-bg" class="hidden-sm hidden-xs">
+<section id="video-bg" class="">
     <div id="bgndVideo" class="player" 
          data-property="{videoURL:'https://youtu.be/yEOezV5isbM',containment:'#video-bg',autoPlay:true, mute:true, showControls:false, startAt:80, stopAt:259, opacity:1}">
     </div>
@@ -459,8 +472,14 @@
           </video> -->
         <!-- <video class="embed-responsive-item" src="https://www.youtube.com/embed/zpOULjyy-n8?rel=0" allowfullscreen> https://youtu.be/yEOezV5isbM -->
             
-      </div>
-    
+      <!-- </div> -->
+      <!-- <div id="video-container">
+        <video autoplay loop poster="http://media.w3.org/2010/05/sintel/poster.png" muted="muted">
+                            <source id="mp4" src="vid/video_bg_45s.mp4" type="video/mp4">
+                            Your browser does not support the video tag. I suggest you upgrade your browser.
+                        </video>
+        </div> -->
+
     <div id="video-content">
         <h5>Kuala Lumpur</h5>
         <p>The city that never sleeps</p>
