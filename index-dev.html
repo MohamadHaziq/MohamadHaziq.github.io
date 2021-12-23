@@ -60,6 +60,10 @@
             z-index:0;
                 width: 100%;
         }
+        .video-wrapper {position: relative; padding-bottom: 56.25%; /* 16:9 */  padding-top: 25px;}
+        .video-wrapper iframe {position: absolute; top: 0; left: 0; width: 100%; height: 100%;}
+
+
     </style>
 </head>
 <body id="top">
@@ -124,124 +128,6 @@
     <div class="down-arrow floating-arrow"><a href="#invitation"><i class="fa fa-angle-down"></i></a></div>
 </section>
 
-<!-- <section class="hero"> -->
-    <!-- <nav class="navbar navbar-expand-lg fixed-top navbar-light bg-dark" style="color: white;">
-        <a class="navbar-brand" href="#"><img src="img/logo.png" alt="Logo"></a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNav">
-          <ul class="navbar-nav">
-            <li class="nav-item active nav-text">
-              <a class="nav-link" href="#intro" style="color: white;" >How we met <span class="sr-only">(current)</span></a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#events" style="color: white;">Events</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#instagram" style="color: white;">Photos</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#video-bg" style="color: white;">Glimps of the City</a>
-            </li>
-          </ul>
-          <ul class="navbar-nav mr-auto">
-            <li class="nav-item active nav-text">
-              <a class="nav-link btn-white btn-small" href="#rsvp" >RSVP</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link login" href="#map">Venue</a>
-            </li>
-        </ul>
-        </div>
-      </nav> -->
-    <!-- <nav class="navbar fixed-top navbar-light bg-dark">
-        <div class="container-fluid">
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarNav">
-            <ul class="navbar-nav">
-              <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#">Home</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Features</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Pricing</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
-              </li>
-            </ul>
-          </div>
-        </div>
-    </nav>  -->
-    <!-- <section class="navigation">
-        <header>
-            <div class="header-content">
-                <div class="logo"><a href="#"><img src="img/logo.png" alt="Logo"></a></div>
-                <nav class="navbar fixed-top navbar-light bg-light">
-                    <div class="container-fluid">
-                        <div class="logo"><a href="#"><img src="img/logo.png" alt="Logo"></a></div>
-                      <a class="navbar-brand" href="#">Fixed top</a>
-                    </div>
-                  </nav>
-                <div class="header-nav">
-                    <nav>
-                        <ul class="primary-nav">
-                            <li><a href="#intro">How we met</a></li>
-                            <li><a href="#events">Events</a></li>
-                            <li><a href="#instagram">Instagram</a></li>
-                            <li><a href="#eng-pics">Engagement</a></li>
-                            <li class="hidden-sm hidden-xs"><a href="#video-bg">Glimpse of the city</a></li>
-                        </ul>
-                        <ul class="member-actions">
-                            <li><a href="#map" class="login">Venue</a></li>
-                            <li><a href="#rsvp" class="btn-white btn-small">RSVP</a></li>
-                        </ul>
-                    </nav>
-                </div>
-                <div class="navicon">
-                    <a class="nav-toggle" href="#"><span></span></a>
-                </div>
-            </div>
-        </header>
-    </section> -->
-    <!-- <section id="header-video" class="">
-    <div id="headVideo" class="player"
-         data-property="{videoURL:'https://youtu.be/dY4Obwy0U7g',containment:'#header-video',autoPlay:true, mute:true, showControls:false, startAt:15, stopAt:259, opacity:1}">
-    </div>
-    <div id="video-content">
-        <h5>Kuala Lumpur</h5>
-        <p>The Wedding of Haziq and Hayani</p>
-        <a href="#rsvp"
-                class="btn btn-accent btn-large rsvp-btn">RSVP</a>
-
-    </div>
-    </section>
-    <div class="container">
-        <div class="row">
-            <div class="col-md-10 col-md-offset-1">
-                <div class="hero-content text-center">
-                    <h1> <br></h1>
-                    <!-- <img src="img/logo.png"> -->
-                    <!-- <p class="intro"> </p>
-                </div>
-                <div class="col-sm-4 hidden-xs"></div>
-            </div> -->
-            <!-- <div class="col-sm-4 hidden-xs text-center"><a href="#rsvp"
-                                                           class="btn btn-accent btn-large rsvp-btn">RSVP</a></div>
-            <div class="col-sm-4 hidden-xs"></div>
-            </div> -->
-            <!-- </div>
-        </div>
-        <div class="row"> -->
-            
-    <!-- </div> ;" background:#FBEBD2;
-    <div class="down-arrow floating-arrow"><a href="#invitation"><i class="fa fa-angle-down"></i></a></div> -->
-<!-- </section> -->
 
 <section id="invitation" class="section-padding" style="background-image:linear-gradient(180deg, rgb(248 221 166), rgb(251 235 210))" >
     <div class="container">
@@ -249,7 +135,7 @@
             <div class="col-md-12 text-center">
                 <h2>PLEASE MAKE NOTE THAT THIS IS THE DEV WEB URL FOR TESTING - MIGRATING TO BOOTSTRAP 5</h2>
                 <h3>We are getting married !</h3>
-                <p class="text-black" style="font-size: medium;">We will be having our wedding on the 26<sup>th</sup> February '22 for our Reception and we would like to extend our warmest invitations to you to 
+                <p class="text-black">We will be having our wedding on the 26<sup>th</sup> February '22 for our Reception and we would like to extend our warmest invitations to you to 
                     join us in celebrating our big day together with us.</p>
                 <p class="text-black">Clear your calendar and leave space for us. We will see you then !</p>
                 <!-- <p class="text-black">We will be having our reception on the 26<sup>th</sup> February '22 for our Reception and we would like to extend our warmest invitations to you to 
@@ -449,38 +335,16 @@
             <div class="col-xs-12 section-border section-padding"></div>
         </div>
     </div>
-    <!-- <div class="row">
-        <div class="col-md-12">
-            <div class="diamond floating-logo">
-                <img src="img/logo.png" alt="Sketch Logo">
-                <div class="ring"></div>
-            </div>
-        </div>
-    </div> -->
+
 </section>
 
 <!-- change source to video -->
 
-<section id="video-bg" class="">
-    <div id="bgndVideo" class="player" 
+<section id="video-bg" class="d-none d-md-block">
+    <div id="bgndVideo" class="player " 
          data-property="{videoURL:'https://youtu.be/yEOezV5isbM',containment:'#video-bg',autoPlay:true, mute:true, showControls:false, startAt:80, stopAt:259, opacity:1}">
-    </div>
-    <!-- <div class="embed-responsive embed-responsive-16by9">
-        <video width="1280" height="680" autoplay>
-            <source class="embed-responsive-item" src="vid/video_bg_45s.mp4" type="video/mp4" autoplay muted>
-          Your browser does not support the video tag.
-          </video> -->
-        <!-- <video class="embed-responsive-item" src="https://www.youtube.com/embed/zpOULjyy-n8?rel=0" allowfullscreen> https://youtu.be/yEOezV5isbM -->
-            
-      <!-- </div> -->
-      <!-- <div id="video-container">
-        <video autoplay loop poster="http://media.w3.org/2010/05/sintel/poster.png" muted="muted">
-                            <source id="mp4" src="vid/video_bg_45s.mp4" type="video/mp4">
-                            Your browser does not support the video tag. I suggest you upgrade your browser.
-                        </video>
-        </div> -->
-
-    <div id="video-content">
+    </div>  
+    <div id="video-content" class="">
         <h5>Kuala Lumpur</h5>
         <p>The city that never sleeps</p>
     </div>
@@ -516,11 +380,7 @@
                         </div>
                     </div>
                     <div class="row text-center">
-                        <!-- <div class="col-md-6" style="padding: 5px;">
-                            <a class="btn btn-fill btn-small"
-                               href="https://m.uber.com/ul/?action=setPickup&client_id=Yh7Dl6SjB56RY2JuuZF8ttVa6ryFV78W&pickup=my_location&dropoff[formatted_address]=Fortune%20Park%20Panchwati%20-%20Hotels%20in%20Kolkata%2C%20Howrah%2C%20West%20Bengal%2C%20India&dropoff[latitude]=22.593276&dropoff[longitude]=88.270277"><i
-                                    class="fa fa-taxi"></i>&nbsp;&nbsp;Book Uber</a>
-                        </div> -->
+
                         <div class="col-md-6" style="padding: 5px;">
                             <a class="btn btn-accent btn-small" id="btn-show-map"><i class="fa fa-map-marker"></i>&nbsp;&nbsp;Show
                                 map</a>
@@ -566,9 +426,11 @@
                         </div>
                         <div class="col-md-6 col-sm-6">
                             <div class="form-input-group">
-                                <i class="fa fa-users"></i><input name="extras" class=""                                                                  
-                                                                  placeholder="Alone? Yes/No"
-                                                                  required>
+                                <i class="fa fa-users"></i><select class="form-select" aria-label="Default select example" name="extras" id="extras">
+                                    <option hidden >Alone or With Partner</option>
+                                    <option value="Alone">Alone</option>
+                                    <option value="With Partner">With Partner</option>
+                                  </select>
                             </div>
                         </div>
                     </div>
@@ -592,12 +454,13 @@
                     <div class="row">
                         <div class="col-md-6 col-sm-6">
                             <div class="form-input-group">
-                                <i class="fa fa-cutlery"></i><input name="food_choice" id="food_choice"
-                                                                class="" min="0"
-                                                                placeholder="Veg/Non Veg (No beef served)"
-                                                                required>
+                                <i class="fa fa-cutlery"></i><select class="form-select" aria-label="Default select example" name="food_choice" id="food_choice">
+                                    <option hidden >Dietary Restrictions (No beef served)</option>
+                                    <option value="No Preference">No Dietary Preferences</option>
+                                    <option value="Vegetarian">Vegetarian</option>
+                                  </select>
                             </div>
-                        </div> 
+                        </div>  
                         <div class="col-md-6 col-sm-6">
                             <div class="form-input-group">
                                 <i class="fa fa-key"></i><input type="number" name="invite_code" id="invite_code"
@@ -607,17 +470,6 @@
                             </div>
                         </div>                       
                     </div>
-                    <div class="row">
-                        <div class="col-md-6 col-sm-6">
-                            <div class="form-input-group">
-                                <i class="fa fa-cutlery"></i><select class="form-select" aria-label="Default select example">
-                                    <option selected>No Dietary Preferences</option>
-                                    <option value="1">Vegetarian</option>
-                                    <option value="2">Two</option>
-                                    <option value="3">Three</option>
-                                  </select>
-                            </div>
-                        </div> 
                     <div class="row">
                         <div class="col-md-12" id="alert-wrapper"></div>
                     </div>
