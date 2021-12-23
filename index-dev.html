@@ -452,13 +452,22 @@
     <div id="bgndVideo" class="player" 
          data-property="{videoURL:'https://youtu.be/yEOezV5isbM',containment:'#video-bg',autoPlay:true, mute:true, showControls:false, startAt:80, stopAt:259, opacity:1}">
     </div>
+    <!-- <div class="embed-responsive embed-responsive-16by9">
+        <video width="1280" height="680" autoplay>
+            <source class="embed-responsive-item" src="vid/video_bg_45s.mp4" type="video/mp4" autoplay muted>
+          Your browser does not support the video tag.
+          </video> -->
+        <!-- <video class="embed-responsive-item" src="https://www.youtube.com/embed/zpOULjyy-n8?rel=0" allowfullscreen> https://youtu.be/yEOezV5isbM -->
+            
+      </div>
+    
     <div id="video-content">
         <h5>Kuala Lumpur</h5>
         <p>The city that never sleeps</p>
     </div>
 </section>
 
-<section id="map" class="section-padding">
+<section id="map" class="section-padding" style="background-image:linear-gradient(180deg, rgb(248 221 166), rgb(251 235 210))">
     <div class="text-center">
         <h3>How do I get there?</h3>
         <p class="text-black">It's way easier than you think!</p>
@@ -504,7 +513,7 @@
     </div>
 </section>
 
-<section class="rsvp text-center" id="rsvp">
+<section class="rsvp text-center" id="rsvp" style="background-image:linear-gradient(180deg, rgb(251 235 210), rgb(255, 245, 228))">
 
     <div id="rsvp-modal" class="modal fade" tabindex="-1" role="dialog">
         <div class="modal-dialog" role="document">
@@ -524,7 +533,7 @@
 
     <div class="container">
         <div class="row">
-            <div class="col-md-6 offset-md-3">
+            <div class="col-md-6 offset-md-3" >
                 <h3>What are you waiting for?</h3>
                 <p class="text-black">We would greatly appreciate if you could RSVP before 31st of January '22</p>
                 <form id="rsvp-form" class="rsvp-form">
@@ -583,8 +592,8 @@
                         <div class="col-md-6 col-sm-6">
                             <div class="form-input-group">
                                 <i class="fa fa-cutlery"></i><select class="form-select" aria-label="Default select example">
-                                    <option selected>Open this select menu</option>
-                                    <option value="1">One</option>
+                                    <option selected>No Dietary Preferences</option>
+                                    <option value="1">Vegetarian</option>
                                     <option value="2">Two</option>
                                     <option value="3">Three</option>
                                   </select>
