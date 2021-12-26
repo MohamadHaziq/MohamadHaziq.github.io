@@ -1,6 +1,7 @@
 .idea/
 /img/Engagement
 /img/old
+/vid
 node_modules/node-sass
 node_modules/brew
 node_modules/gulp-sass
