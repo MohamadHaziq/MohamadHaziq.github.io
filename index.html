@@ -138,9 +138,98 @@
                 <p class="text-black">We will be having our wedding on the 26<sup>th</sup> February '22 for our Reception and we would like to extend our warmest invitations to you to 
                     join us in celebrating our big day together with us.</p>
                 <p class="text-black">Clear your calendar and leave space for us. We will see you then !</p>
-                <!-- <p class="text-black">We will be having our reception on the 26<sup>th</sup> February '22 for our Reception and we would like to extend our warmest invitations to you to 
-                join us in celebrating our big day together with us.</p> -->
-                <!-- <div class="share-bar"></div> -->
+                <!-- <a href="#rsvp" class="btn btn-accent btn-large rsvp-btn">RSVP</a> -->
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="rsvp text-center" id="rsvp-2" style="background-image:linear-gradient(180deg, rgb(251 235 210), rgb(255, 245, 228))">
+
+    <div id="rsvp-modal" class="modal fade" tabindex="-1" role="dialog">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-body">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span>&times;</span>
+                    </button>
+                    <div class="section-padding">
+                        <h3>Thank you!</h3>
+                        <p>We are glad to see you join us on our big day.</p>
+                        <div id="add-to-cal"></div>
+                    </div>
+                </div>
+            </div><!-- /.modal-content -->
+        </div><!-- /.modal-dialog -->
+    </div><!-- /.modal -->
+
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6 offset-md-3" >
+                <h3>Let us know you are coming !</h3>
+                <p class="text-black">We would greatly appreciate if you could RSVP before 31st of January '22</p>
+                <form id="rsvp-form" class="rsvp-form">
+                    <div class="row">           
+                        <div class="col-md-6 col-sm-6">
+                            <div class="form-input-group">
+                                <i class="fa fa-user"></i><input name="name" class=""
+                                                                 placeholder="Your name"
+                                                                 required>
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-sm-6">
+                            <div class="form-input-group">
+                                <i class="fa fa-users"></i><select class="form-select" aria-label="Default select example" name="extras" id="extras">
+                                    <option hidden >Alone or With Partner</option>
+                                    <option value="Alone">Alone</option>
+                                    <option value="With Partner">With Partner (+1)</option>
+                                  </select>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-6 col-sm-6">
+                            <div class="form-input-group">
+                                <i class="fa fa-envelope"></i><input type="email" name="email" class=""
+                                                                     placeholder="Your email"
+                                                                     required>
+                            </div>
+                        </div>                 
+                        <div class="col-md-6 col-sm-6">
+                            <div class="form-input-group">
+                                <i class="fa fa-mobile"></i><input name="mobile_no" id="mobile_no"
+                                                                class="" min="0"
+                                                                placeholder="+6 012 3456789"
+                                                                required>
+                            </div>
+                        </div>               
+                    </div>
+                    <div class="row">
+                        <div class="col-md-6 col-sm-6">
+                            <div class="form-input-group">
+                                <i class="fa fa-cutlery"></i><select class="form-select" aria-label="Default select example" name="food_choice" id="food_choice">
+                                    <option hidden >Dietary Restrictions (No beef served)</option>
+                                    <option value="No Preference">No Dietary Preferences</option>
+                                    <option value="Vegetarian">Vegetarian</option>
+                                  </select>
+                            </div>
+                        </div>  
+                        <div class="col-md-6 col-sm-6">
+                            <div class="form-input-group">
+                                <i class="fa fa-key"></i><input type="number" name="invite_code" id="invite_code"
+                                                                class="" min="0"
+                                                                placeholder="Invite code"
+                                                                required>
+                            </div>
+                        </div>                       
+                    </div>
+                    <div class="row">
+                        <div class="col-md-12" id="alert-wrapper"></div>
+                    </div>
+                    <button type="submit" class="btn-fill rsvp-btn">
+                        Yes,
+                        that's me!
+                    </button>
+                </form>
             </div>
         </div>
     </div>
@@ -179,7 +268,7 @@
         <div class="row">
             <div class="col-md-6 col-sm-12 col-xs-12 leftcol">
                 <div class="wp3">
-                    <h5>Reception <span class="time">8PM - LATE</span></h5>
+                    <h5>Reception <span class="time">7PM - LATE</span></h5>
                     <p class="text-black">The Walimatulurus, also known as the Wedding Reception, is a post-wedding ritual of a Muslim wedding.
                         We'd like to cordially invite you to our reception to celebrate 
                         the joining of our two lives as one.
@@ -194,22 +283,33 @@
             </div>
             <div class="col-md-6 col-sm-12 col-xs-12 rightcol">
                 <div class="wp4">
-                    <h5>Guest Arrivals <span class="time">7.30PM Onwards</span></h5>
-
-                    <p class="text-black">Arrival of guests to the venue</p>
+                    <h4>Itenary</h4>
+                    <p class = "text-black">
+                        7.00PM - 7.30PM: Arrival Of Guests & Cocktail Hour <br>
+                        8.00PM: Grand Entrance of Bridal Couple <br>
+                        8.10PM Doa recitation by Ya Fadhil Ustaz Saufi <br>
+                        8.20PM: Blessings <br>
+                        8.30PM: Dinner is Served & Entertainment <br>
+                        9.00PM: Welcome Speech <br>
+                        9.10PM: Speech by Bridal Friends <br>
+                        9.30PM: Cake Cutting <br>
+                        9.40PM: Photo Session <br>
+                        10.30PM: End of Ceremony
+                    </p>
+                    
                 </div>
-                <div class="wp6">
+                <!-- <div class="wp6">
                     <h5>Arrival of Bride and Groom <span class="time">8.00PM</span></h5>
                     <p class="text-black">Arrival of the Bride and Groom  </p>
                 </div>
                 <div class="wp6">
                     <h5>Dinner Service <span class="time">8.20PM</span></h5>
                     <p class="text-black">Dinner is served </p>
-                </div>
+                </div> -->
             </div>
         </div>
         <div class="row section-padding">
-            <div class="col-md-4 col-md-offset-4 text-center">
+            <div class="col-md-12 col-md-offset-12 text-center">
                 <a class="btn btn-accent btn-small" data-bs-toggle="modal" data-bs-target="#dc-modal">
                     <i class="fa fa-barcode"></i>&nbsp;&nbsp;Dress code
                 </a>
@@ -385,7 +485,7 @@
                     </div>
                     <div class="row text-center">
 
-                        <div class="col-md-6" style="padding: 5px;">
+                        <div class="col-md-12" style="padding: 5px;">
                             <a class="btn btn-accent btn-small" id="btn-show-map"><i class="fa fa-map-marker"></i>&nbsp;&nbsp;Show
                                 map</a>
                         </div>
