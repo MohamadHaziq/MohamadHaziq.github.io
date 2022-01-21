@@ -251,13 +251,18 @@ Navigation
 Hero
 ========================================================================== */
 .hero {
-  max-width: 100%;
+  height: 400px;
+  width: 100%;
+  // background-image: url('../img/wed-1.png'), url('../img/wed-2.png'), url('../img/wed-3.png'), url('../img/wed-4.png');
+  // background-position: center left, center center, center right, center center;
+  // background-repeat: no-repeat;
   background: url('../img/header.png') center center;
   background-color: #4f3b39;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
-  background-size: cover;
+  background-size: contain;
+  background-repeat: no-repeat;
   position: relative;
 
   /*.rsvp-btn {
