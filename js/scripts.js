@@ -227,14 +227,14 @@ $(document).ready(function () {
       title: "Haziq and Hayani's Wedding",
 
       // Event start date
-      start: new Date("Feb 26, 2022 12:00"),
+      start: new Date("Feb 26, 2022 19:00"),
 
       // Event duration (IN MINUTES)
       // duration: 120,
 
       // You can also choose to set an end time
       // If an end time is set, this will take precedence over duration
-      end: new Date("Feb 26, 2022 17:00"),
+      end: new Date("Feb 26, 2022 22:00"),
 
       // Event Address
       address: "Sime Darby Convention Centre, Kuala Lumpur, Malaysia",
