@@ -84,7 +84,7 @@
                         </ul>
                         <ul class="member-actions">
                             <li><a href="#map" class="login">Venue</a></li>
-                            <!-- <li><a href="#rsvp" class="btn-white btn-small">RSVP</a></li> -->
+                            <li><a href="#rsvp" class="btn-white btn-small">RSVP</a></li>
                         </ul>
                     </nav>
                 </div>
@@ -144,6 +144,96 @@
     </div>
 </section>
 
+<section class="rsvp text-center" id="rsvp" style="background-image:linear-gradient(180deg, rgb(251 235 210), rgb(255, 245, 228))">
+
+    <div id="rsvp-modal" class="modal fade" tabindex="-1" role="dialog">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-body">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span>&times;</span>
+                    </button>
+                    <div class="section-padding">
+                        <h3>Thank you!</h3>
+                        <p>We are glad to see you join us on our big day.</p>
+                        <div id="add-to-cal"></div>
+                    </div>
+                </div>
+            </div><!-- /.modal-content -->
+        </div><!-- /.modal-dialog -->
+    </div><!-- /.modal -->
+
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6 offset-md-3" >
+                <h3>Let us know you are coming !</h3>
+                <p class="text-black">We would greatly appreciate if you could RSVP before 10th of February '22</p>
+                <form id="rsvp-form" class="rsvp-form">
+                    <div class="row">           
+                        <div class="col-md-6 col-sm-6">
+                            <div class="form-input-group">
+                                <i class="fa fa-user"></i><input name="name" class=""
+                                                                 placeholder="Your name"
+                                                                 required>
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-sm-6">
+                            <div class="form-input-group">
+                                <i class="fa fa-users"></i><select class="form-select" aria-label="Default select example" name="extras" id="extras">
+                                    <option hidden >Alone or With Partner</option>
+                                    <option value="Alone">Alone</option>
+                                    <option value="With Partner">With Partner (+1)</option>
+                                  </select>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-6 col-sm-6">
+                            <div class="form-input-group">
+                                <i class="fa fa-envelope"></i><input type="email" name="email" class=""
+                                                                     placeholder="Your email"
+                                                                     required>
+                            </div>
+                        </div>                 
+                        <div class="col-md-6 col-sm-6">
+                            <div class="form-input-group">
+                                <i class="fa fa-mobile"></i><input name="mobile_no" id="mobile_no"
+                                                                class="" min="0"
+                                                                placeholder="+6 012 3456789"
+                                                                required>
+                            </div>
+                        </div>               
+                    </div>
+                    <div class="row">
+                        <div class="col-md-6 col-sm-6">
+                            <div class="form-input-group">
+                                <i class="fa fa-cutlery"></i><select class="form-select" aria-label="Default select example" name="food_choice" id="food_choice">
+                                    <option hidden >Dietary Restrictions (No beef served)</option>
+                                    <option value="No Preference">No Dietary Preferences</option>
+                                    <option value="Vegetarian">Vegetarian</option>
+                                  </select>
+                            </div>
+                        </div>  
+                        <div class="col-md-6 col-sm-6">
+                            <div class="form-input-group">
+                                <i class="fa fa-key"></i><input type="number" name="invite_code" id="invite_code"
+                                                                class="" min="0"
+                                                                placeholder="Invite code"
+                                                                required>
+                            </div>
+                        </div>                       
+                    </div>
+                    <div class="row">
+                        <div class="col-md-12" id="alert-wrapper"></div>
+                    </div>
+                    <button type="submit" class="btn-fill rsvp-btn">
+                        Yes,
+                        that's me!
+                    </button>
+                </form>
+            </div>
+        </div>
+    </div>
+</section>
 
 <section id="intro" class="" style="background:#FBEBD2;">
     <div class="container highlight-border">
